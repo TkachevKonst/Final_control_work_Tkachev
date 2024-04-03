@@ -1,0 +1,21 @@
+cat > Pets
+cat > Packanimals
+cat Packanimals
+cat Pets
+cat Pets Packanimals > HumanFriends
+cat HumanFriends
+ls
+mkdir Animals
+mv HumanFriends Animals/
+ls
+cd Animals
+ls
+cd ..
+sudo apt install mysql-server
+sudo mysql
+sudo apt remove mysql-server
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+sudo mysql
+sudo dpkg -r mysql-server-8.0
+history
